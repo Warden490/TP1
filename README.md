@@ -1,4 +1,3 @@
 # Public
 
-# Vadot Gabriel
-#Todav Leirbag
+# [Vadot Gabriel/Todav Leirbag]
