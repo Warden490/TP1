@@ -7,8 +7,15 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class AddTest {
     @Test
     void additionneDeuxNombres() {
-        Add addition = new Add();
+        Add calculAddition = new Add();
 
-        assertEquals(5, addition.add(2, 3));
+        assertEquals(5, calculAddition.add(2, 3));
+    }
+
+    @Test
+    void additionneDeuxNombresNegatifs() {
+        Add calculAddition = new Add();
+
+        assertEquals(-5, calculAddition.add(-2, -3));
     }
 }
