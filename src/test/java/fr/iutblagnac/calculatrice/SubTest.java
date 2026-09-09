@@ -11,4 +11,11 @@ class SubTest {
 
         assertEquals(2, soustraction.sub(5, 3));
     }
+
+    @Test
+    void produitUnResultatNegatif() {
+        Sub soustraction = new Sub();
+
+        assertEquals(-2, soustraction.sub(3, 5));
+    }
 }
